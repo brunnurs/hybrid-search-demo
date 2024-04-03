@@ -1595,6 +1595,22 @@ tenacity = ">=8.1.0,<9.0.0"
 extended-testing = ["jinja2 (>=3,<4)"]
 
 [[package]]
+name = "langchain-elasticsearch"
+version = "0.1.1"
+description = "An integration package connecting Elasticsearch and LangChain"
+optional = false
+python-versions = ">=3.8.1,<4.0"
+files = [
+    {file = "langchain_elasticsearch-0.1.1-py3-none-any.whl", hash = "sha256:eabf32f5a5fefd958cfb630648e2b2f68eaf3c25ccc8c6c01d4afbd2ccecc9cb"},
+    {file = "langchain_elasticsearch-0.1.1.tar.gz", hash = "sha256:57e7d3a664bd313e0400685f0a98d234cf6cf4a164f8738a96e55694da6e1e3a"},
+]
+
+[package.dependencies]
+elasticsearch = ">=8.12.0,<9.0.0"
+langchain-core = ">=0.1,<0.2"
+numpy = ">=1,<2"
+
+[[package]]
 name = "langchain-text-splitters"
 version = "0.0.1"
 description = "LangChain text splitting utilities"
@@ -4252,4 +4268,4 @@ multidict = ">=4.0"
 [metadata]
 lock-version = "2.0"
 python-versions = "^3.10"
-content-hash = "b360a4dac21b7e49f6157e99e2e34286ae56e2b22c610e6e96ff86c5a69328de"
+content-hash = "98237ff06c178730dfdbfe93d26b9a3a7c6b5dcdb57918c4344de36be817b971"
